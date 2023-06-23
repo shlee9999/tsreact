@@ -6,5 +6,5 @@ type AppProps = {
 }
 
 export const App: FC<AppProps> = ({ className }) => {
-  return <Root className={className}>Helo</Root>
+  return <Root className={className}>Hello</Root>
 }
